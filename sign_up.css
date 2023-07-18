@@ -1,0 +1,68 @@
+* {box-sizing:border-box;
+   font-weight:lighter;}
+body {background:#e7e7e7;
+      font-size:3.7vw;
+      font-weight:lighter;
+      letter-spacing:0.1em;}
+header {text-align:center;
+        margin:0.7em 1vw 11em 1vw;}
+header>div>a {float:left;}
+span {font-weight:bold;}
+span+div {float:right;}
+a {text-decoration:none;
+   background:white;
+   padding:1vw 3vw;
+   border-radius:2vw;}
+section 
+     { margin-right:5vw;
+       margin-left:5.3em;
+       margin-bottom:3vw;}
+input {position:relative;
+       height:9vw;
+       width:91%;
+       margin-top:5px;
+       margin-left:auto;
+       color:black;
+       padding-top:4.3vw;
+       padding-left:0.7em;
+       border:none;
+       border-left:solid mediumseagreen;
+       outline:none;}
+form:hover label{font-size:3vw;
+                padding-top:0;}
+section form {border-radius:3vw;
+             margin-top:3vw;
+             background:white;
+             width:79%;
+             height:12.5vw;}
+form>label {position:absolute;
+            z-index:1;
+            margin:5px;
+            padding:5px 0.7em;}
+form + div { font-size:x-small;
+            color:red;
+            font-weight:bold;
+            line-height:1;
+            border-radius:0 0 .5vw 0;
+            text-align-last:left;
+            margin:.3vw 19%  0 .5vw;
+           font-weight:normal;}
+[name=co-password] {border-color:red;}
+article {margin-left:7vw;
+         width:85%;
+         text-align:center;
+         font-size:3.5vw;
+         word-spacing:-1px;
+         letter-spacing:-0.1px;
+         font-family:Courier new;
+         color:gray;}
+article div a {background:#e7e7e7;
+               padding:0px;}
+div+div {background:navy;
+         margin-top:3.5vw;
+         padding:5vw;
+         text-transform:uppercase;
+         font-size:3.7vw;
+         color:#e7e7e7;
+         border-radius:3vw;
+         font-family:monospace;}
